@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    /* Colors */
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+
+    /* Font Weigth */
+    --Font-weigth-400: 400;
+    --Font-weigth-700: 700;
+
+
+}
+
+body{
+    background-color: var(--Light-gray);
+    font-family: 'Outfit', sans-serif;
+}
+
+/* SECTION QR */
+.qr{
+    padding: 20px;
+    width: 80%;
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 90px;
+    max-width: 300px;
+}
+
+/* figure qr */
+.qr__figure{
+    width: 100%;
+}
+
+.qr__img{
+    width: 100%;
+    background-position: center;
+    border-radius: 10px;
+    max-width: 260px;
+}
+
+/* texts qr */
+.qr__texts{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.qr__subtitle{
+    font-size: 20px;
+    text-align: center;
+    font-weight: var(--Font-weigth-700);
+}
+
+.qr__paragraph{
+    font-size: 15px;
+    font-weight: var(--Font-weigth-400);
+    text-align: center;
+    margin-top: .8em;
+}
+
+/* footer */
+.footer{
+    margin-top: 15px;
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media (min-width: 376px){
+
+    .attribution {
+        font-size: 12px; text-align: center; 
+    }
+        
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+    
+}
